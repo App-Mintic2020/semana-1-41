@@ -1,4 +1,19 @@
-.section-title{
+body{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    background-color: #888888;
+    height: 2000px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+.section1-title{
     text-align: center;
     bottom: 0;
 }
@@ -31,25 +46,16 @@
 }
 
 
-body{
-    margin-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container{
-    width: 1200px;
-    background-color: #888888;
-    height: 2000px;
-    -ms-flex-item-align: center;
-        align-self: center;
-    margin: 0px auto;
-    padding: 0 auto;
-}
-
-.section-text{
+.section1-text{
     margin: 0;
     color: #3e3e3e;
     background: white;
     font-weight: bold;
     text-align: center;
+}
+
+.service-text{
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
 }
