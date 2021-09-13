@@ -1,0 +1,123 @@
+body{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    width: 1200px;
+    background-color: #888888;
+    height: 2000px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+
+.section-news > div:first-child{
+    margin-bottom: 6px; 
+}
+.section-news{
+    background-color: white;
+}
+.section-2{
+    height:auto;
+}
+
+.news{
+    
+    display: -webkit-inline-box;
+    background-color: transparent;
+    margin:10px;
+}
+
+
+.news > div:first-child{
+    margin: 0 6px;
+}
+
+.news-data{
+    width: 49%;
+    height: auto;
+    background:linear-gradient(to right,#3a4292,#009b9b);
+    display:flex; 
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.news-data:active{
+    background-color: #ff0000;
+    /* height:300px; */
+    animation:scala 2s;
+}
+
+@keyframes scala {
+    0%{
+        transform:scale(.95);
+    }
+    50%{
+        transform:scale(.9);
+    }
+}
+
+.news p {
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+.news-text .news-title{
+    color: #000000;
+    font-family: Arial', cursive;
+    letter-spacing: 50px;
+    font-size: 20px;
+}
+
+
+.news-image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.news-image img{
+    width:200px;
+    width:250px;
+}
+
+.news-text{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    width: 49%;
+    margin-left:15px;
+}
+
+.news-url{
+    font-size: 15px;
+    border: 2px solid white;
+    float: right;
+    padding: 6px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.news-url:hover{
+    box-shadow: 0px 0px 20px #0f0f0f;
+}
+
+.news-url > a{
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+hr{
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.news-title{
+    text-transform: uppercase;
+}
