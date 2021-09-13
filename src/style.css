@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 body{
@@ -123,3 +124,106 @@ hr{
 .news-title{
     text-transform: uppercase;
 }
+=======
+body {
+		margin-top: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+		width: 1200px;
+		background-color: #db0c0c;
+		height: 2000px;
+		-ms-flex-item-align: center;
+				align-self: center;
+		margin: 0px auto;
+		padding: 0 auto;
+}
+
+.header {
+		background-color: rgb(16, 204, 47);
+		height: auto;
+
+}
+
+.container-menu {
+		height: 60px;
+		background-color: rgb(255, 230, 0);
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+		color: rgb(247, 162, 101);
+
+}
+
+.container-logo {
+		width: 100%;
+		height: inherit;
+		background-color: rgb(85, 101, 240);
+		text-align: center;
+}
+
+.site-title {
+		margin: 0;
+		padding: 0.36em 0;
+}
+
+.container-imagen {
+		background-image: url('./image/balon-de-futbol.png');
+		height: 240px;
+}
+
+.nav-list {
+		padding: 0.25em 0;
+		list-style-type: none;
+		text-align: end;
+		width: 100%
+}
+
+.nav-element {
+		padding: 1em 15px;
+		display: inline-block;
+		text-decoration: none;
+		color: #350404;
+
+}
+
+.nav-element:hover {
+		text-decoration: underline;
+		font-weight: bold;
+}
+
+.image-text {
+		margin: 0;
+		padding: 9% 0;
+		text-align: center;
+		color:firebrick;
+}
+
+.main-menu {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+		list-style: none;
+		display: flex;
+		justify-content: space-evenly;
+}
+
+.main-menu__item {
+		line-height: 3;
+}
+
+.main-menu__link {
+		text-decoration: none;
+		font-size: 1em;
+		color: #361e1e;
+}
+
+.main-menu__link:hover {
+		text-decoration: underline;
+		font-weight: bold;
+}
+
+
+>>>>>>> 7f7496973f2b21caad6797be6f1cfe333212bbd5
